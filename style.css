@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(32,33,36,1);
+}
+#logo{
+   
+}
+
+/* styles for the header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    color: white;
+}
+header ul{
+    list-style-type: none;
+    margin-right: 20px; 
+    font-size: 15px;
+    color:white;
+}
+header:hover{
+    text-decoration: underline;
+}
+.top{
+    display: flex;
+    margin-left: auto;
+    min-width: 13vw;
+    justify-content: space-between;
+    color: white;
+}
+
+/* main field*/
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 0;
+    width: 40%;
+
+}
+#searchField{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+}
+#buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#buttons button{
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.offered{
+    margin-top: 10px;
+    height: 180px;
+    text-align: center;
+}
+.offered p{
+    color: white;
+}
+
+
+/*footer*/
+.region{
+    padding: 15px 30px;
+    border-bottom: 1px solid #212327;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+.links{
+    margin-top: 10px;
+    justify-content: center;
+
+    padding-top: auto;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+footer ul{
+    list-style-type: none;
+    margin-right: 20px; 
+    font-size: 15px;
+    display: inline;
+}
+footer li{
+    display: inline;
+
+}
+footer a{
+    padding: 10px 30px;
+    border-bottom: 1px solid #212327;
+    font-size: 15px;
+    color: #9aa0a6;
+
+}
+
